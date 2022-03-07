@@ -62,10 +62,9 @@ EDA:
       ● Wed, Thu, Fri, Sat have more number of bookings as compared to the other weekdays.
       ● When it’s not holiday, booking seems to be less in number which seems reasonable as on holidays, people may want to spend time at home and enjoy with family. 
             Time can be allocated for Outings and physical activity like cycling/bikes.
-      ● Booking seemed to be almost equal either on working day or non-working day.
-            2019 attracted more number of booking from the previous year, which shows good progress in terms of business.
+      ● Booking seemed to be almost equal either on working day or non-working day.2019 attracted more number of booking from the previous year, which shows good progress in terms of business.
 
-LINEAR REGRESSION:
+#### LINEAR REGRESSION:
       ● Creating a regression model by Spiltting the Data into training and test sets using sklearn.
       ● Using plots and derving the co-relation coefficients.
       ● Building the Linear Prediction model using the regression by reduction of VIF < 5 and dletion of high p-value/VIF variables
