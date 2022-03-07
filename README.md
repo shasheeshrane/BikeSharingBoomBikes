@@ -56,15 +56,14 @@ We are grateful to IIIT-B and Upgrad , and our teachers Dinesh J Babu, to help u
 #### As for the Assignment is concerned we got below Conclusions & learning:
 EDA:  
 
-      Most Booking in Season type Fall. And, in each season the Booking count has increased drastically from 2018 to 2019.
-      Most of the bookings have been done during the month of may, june, july, aug, sep and oct. 
-            bookingTrend increased starting of the year till mid of the year and then it started decreasing as we approached the end of year.
-      Clear weather attracted more booking Due to better Visibility in Decreasing order of Clear, Misty . Light_snowrain
-      Wed, Thu, Fri, Sat have more number of bookings as compared to the other weekdays.
-      When it’s not holiday, booking seems to be less in number which seems
+      -Most Booking in Season type Fall. And, in each season the Booking count has increased drastically from 2018 to 2019.
+      -Most of the bookings have been done during the month of may, june, july, aug, sep and oct. bookingTrend increased starting of the year till mid of the year and then it started decreasing as we approached the end of year.
+      -Clear weather attracted more booking Due to better Visibility in Decreasing order of Clear, Misty . Light_snowrain
+      -Wed, Thu, Fri, Sat have more number of bookings as compared to the other weekdays.
+      -When it’s not holiday, booking seems to be less in number which seems
             reasonable as on holidays, people may want to spend time at home and enjoywith family. 
             Time can be allocated for Outings and physical activity like cycling/bikes.
-      Booking seemed to be almost equal either on working day or non-working day.
+      -Booking seemed to be almost equal either on working day or non-working day.
             2019 attracted more number of booking from the previous year, which shows good progress in terms of business.
 
 LINEAR REGRESSION:
