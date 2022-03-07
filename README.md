@@ -29,7 +29,7 @@ This Assignment is for BoomBikes, A Bike Sharing Company. This assignment is a p
 
       A. DATA UNDERSTANDING , PREPARATION AND EDA
       B. MODEL BUILDING AND EVALUATION
-      C.ASSIGNMENT SUBJECTIVE QUESTIONS
+      C. ASSIGNMENT BASED SUBJECTIVE QUESTIONS
 
 
 ## Technologies used:
