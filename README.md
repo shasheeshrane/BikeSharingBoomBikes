@@ -1,9 +1,6 @@
-# BikeSharingBoomBikes
-This Repository has been Created for Assignment Submission for Bike Sharing - Upgrad
+# BikeSharingBoomBikes - Linear Regression Assignment
+This is being submitted as an assignment in Module 3 - Machine Learning1 - By Shasheesh Rane from AI-ML-C36
 
-
-# LendingClubCaseStudy
-This is being submitted as an assignment in Module 1 - Study Group
 
 ## STUDY GROUP DETAILS:
 
@@ -21,42 +18,61 @@ This is being submitted as an assignment in Module 1 - Study Group
 <!-- ABOUT THE PROJECT -->
 ## General Info:
 
-This Assignment is for a Lending case study to be performed. Similar to a real world business problems, here is a Step by Step Process followed to Analyse the Data and reach to a percievable conclusion. Method used will be through EDA - EXPLORATORY DATA ANALYSIS
+This Assignment is for BoomBikes, A Bike Sharing Company. This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes. You will need to submit a Jupyter notebook for the same. 
 
 Based on the Data Analysis , Also we intend to have a deeper understanding of Risk Analysis when lending Money to different customers
+MAIN SECTIONS OF THE ASSIGNMENT ARE AS BELOW:
+   A. DATA UNDERSTANDING , PREPARATION AND EDA
+   
+   B. MODEL BUILDING AND EVALUATION
+ 
+   C.ASSIGNMENT SUBJECTIVE QUESTIONS
 
 
 ## Technologies used:
 
-For Analysis we have used the Python libraries like matplotlib, plt, seaborn, numpy.
+For Analysis we have used the Python libraries like matplotlib, plt, seaborn, numpy, sklearn, warnings
 
 ### For Dataset feed Files Hosting we have used AWS S3 URLs as below:
-      1. We Uploaded the File loan.csv to https://s3.ap-south-1.amazonaws.com/myawscloud.uk/loan.csv
-      2. We Uploaded the File Data_Dictionary.xlsx to https://s3.ap-sougth-1.amazonaws.com/myawscloud.uk/Data_Dictionary.xlsx
+      1. We Uploaded the File day.csv to https://s3.ap-south-1.amazonaws.com/myawscloud.uk/day.csv
+      2. We Uploaded the File Data_Dictionary.xlsx to https://s3.ap-south-1.amazonaws.com/myawscloud.uk/Readme.txt
 
 These Files are uploaded in AWS S3 directories in Online AWS Storage Account of Shasheesh Rane
-
+Also Uploaded in this Github Folder
 For Coding we have used Jupyter notebook and the Google Collab online
 
 #### ASSIGNMENT FILES UPLOADED:
-      a. Shasheesh_Rane.ipynb ---------- this contains the Analysis Steps and code written in Python Jupyter notebook.
-      b. Lending_club_case_study.pdf---- this contains the Presentation and insights for the LendingClubCaseStudy.
+      a. Bike_Sharing_Jupyter_notebook_Shasheesh_Rane_AI-ML_C36.ipynb ---------- this contains the EDA and Linear Regression code,written in Python Jupyter notebook.
+      b. Answers to Subjective Questions-Shasheesh_Rane-AI-ML_C36--------------- this contains the Answers to Subjective Questions for this Assignment
 
 
 ## Acknowledgements:
 
-We are grateful to IIIT-B and Upgrad , and our teachers Aditya B, to help us gain understanding of the assignment on 6thFeb2022 session.
-A walkthorugh was useful, to give us an idea how to go about the Analysis.
-
+We are grateful to IIIT-B and Upgrad , and our teachers Dinesh J Babu, to help us gain understanding of the Linear Regression.
 
 ## Conclusions:
 
-#### As for the Assignment is concerned we got below Conclusions:
-      a. LendingClub should try giving long term loans , lower amount at lower interest rate, to parties who can pay off or have higher reliability based on certain demographic.Home Owners, Education seekers can will avail of this loan, attractive rates of interest can be given to increase business around > 10000 to 12000 USD.
-      b. Higher interest rate should be given to segments who can afford to pay on time , like Home Owners, Grade-A,B,C, Work experience 7,8,9 years
-      c. Education, Vacation and renewable energy are lower risk purposed where the LendingClub can actually provide attractive Schemes and good Payment EMIs to attract more customers
-      d. LendingClub need to be careful ,Grade D Applicants, they have moderately average Charged-Off count.Same goes for West Zone Applicants region wise.
-      e. US ARMY , Bank of America , IBM, AT & T are in the TOP 4# BUSINESS DRIVER : Loans can be marketed easily to the TOP 10 companies
+#### As for the Assignment is concerned we got below Conclusions & learning:
+EDA: 
+      ● Most Booking in Season type Fall. And, in each season the Booking count has increased drastically from 2018 to 2019.
+      ● Most of the bookings have been done during the month of may, june, july, aug, sep and oct. 
+            bookingTrend increased starting of the year till mid of the year and then it started decreasing as we approached the end of year.
+      ● Clear weather attracted more booking Due to better Visibility in Decreasing order of Clear, Misty . Light_snowrain
+      ● Wed, Thu, Fri, Sat have more number of bookings as compared to the other weekdays.
+      ● When it’s not holiday, booking seems to be less in number which seems
+            reasonable as on holidays, people may want to spend time at home and enjoywith family. 
+            Time can be allocated for Outings and physical activity like cycling/bikes.
+      ● Booking seemed to be almost equal either on working day or non-working day.
+            2019 attracted more number of booking from the previous year, which shows good progress in terms of business.
+
+LINEAR REGRESSION:
+      ● Creating a regression model by Spiltting the Data into training and test sets using sklearn.
+      ● Using plots and derving the co-relation coefficients.
+      ● Building the Linear Prediction model using the regression by reduction of VIF < 5 and dletion of high p-value/VIF variables
+      ● Validating the Regression Prediction Model by ERROR TERMS NORMALITY, LINEAR RELATIONSHIP, MULTI-COLINEARITY CHECK
+      ● Plotting and fitting the linear prediction model against the test Data.
+      
+      
 
 This Assignment helped us develop skills in Data Analytics, and furthermore , upcoming assignments and industry related cases studies will help us gain
 more insights and techniques, tools and observations to progress towards Machine Learning and AI Skills
