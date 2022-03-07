@@ -22,6 +22,7 @@ This Assignment is for BoomBikes, A Bike Sharing Company. This assignment is a p
 
 Based on the Data Analysis , Also we intend to have a deeper understanding of Risk Analysis when lending Money to different customers
 MAIN SECTIONS OF THE ASSIGNMENT ARE AS BELOW:
+
    A. DATA UNDERSTANDING , PREPARATION AND EDA
    
    B. MODEL BUILDING AND EVALUATION
