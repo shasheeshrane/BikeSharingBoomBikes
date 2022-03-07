@@ -18,7 +18,11 @@ This is being submitted as an assignment in Module 3 - Machine Learning1 - By Sh
 <!-- ABOUT THE PROJECT -->
 ## General Info:
 
-This Assignment is for BoomBikes, A Bike Sharing Company. This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes. You will need to submit a Jupyter notebook for the same. 
+This Assignment is for BoomBikes, A Bike Sharing Company. This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes.  
+
+## To Predict below:
+      a. Which variables are significant in predicting the demand for shared bikes.
+      b. How well those variables describe the bike demands
 
 Based on the Data Analysis , Also we intend to have a deeper understanding of Risk Analysis when lending Money to different customers
 MAIN SECTIONS OF THE ASSIGNMENT ARE AS BELOW:
